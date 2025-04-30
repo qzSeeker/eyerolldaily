@@ -351,7 +351,7 @@ export default function AboutPage() {
             className="bg-black border-2 border-white rounded-xl p-8 text-center relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/10 to-transparent"></div>
-            <h3 className="text-5xl font-bold text-white mb-2">10M+</h3>
+            <h3 className="text-5xl font-bold text-white mb-2">5M+</h3>
             <p className="text-yellow-400 font-mono uppercase tracking-wider">Monthly Visitors</p>
 
             {/* Pixelated corner */}
@@ -370,7 +370,7 @@ export default function AboutPage() {
             className="bg-black border-2 border-white rounded-xl p-8 text-center relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-red-500/10 to-transparent"></div>
-            <h3 className="text-5xl font-bold text-white mb-2">500K+</h3>
+            <h3 className="text-5xl font-bold text-white mb-2">5K+</h3>
             <p className="text-red-500 font-mono uppercase tracking-wider">Memes Created</p>
 
             {/* Pixelated corner */}
@@ -389,7 +389,7 @@ export default function AboutPage() {
             className="bg-black border-2 border-white rounded-xl p-8 text-center relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
-            <h3 className="text-5xl font-bold text-white mb-2">42M+</h3>
+            <h3 className="text-5xl font-bold text-white mb-2">3k+</h3>
             <p className="text-white font-mono uppercase tracking-wider">Social Followers</p>
 
             {/* Pixelated corner */}

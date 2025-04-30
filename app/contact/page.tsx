@@ -208,16 +208,16 @@ export default function ContactPage() {
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="bg-gradient-to-r from-yellow-400/20 to-red-500/20 rounded-lg p-6 text-center"
+                    className="bg-yellow-400 rounded-none p-6 text-center"
                   >
-                    <h3 className="text-xl font-bold text-white mb-2">Message Sent!</h3>
-                    <p className="text-gray-300 mb-4">
+                    <h3 className="text-xl font-bold text-black mb-2">Message Sent!</h3>
+                    <p className="text-black.90 mb-4">
                       Your message has been sent to the void. We'll get back to you when Mercury is in retrograde.
                     </p>
                     <div className="text-5xl mb-4">🎉</div>
                     <Button
                       onClick={() => setIsSubmitted(false)}
-                      className="bg-gradient-to-r from-yellow-400 to-red-500 text-black font-bold"
+                      className="bg-black text-white rounded-none font-bold"
                     >
                       Send Another
                     </Button>

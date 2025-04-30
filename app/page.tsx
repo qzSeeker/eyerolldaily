@@ -29,24 +29,24 @@ export default function Home() {
   const memes = [
     {
       id: 1,
-      title: "When the code finally works",
-      imageUrl: "/placeholder.svg?height=300&width=300",
-      likes: 4200,
-      author: "@codingmemer",
+      title: "Even photos has taste",
+      imageUrl: "/humoudmosabih.jpg",
+      likes: 1200,
+      author: "@humoudmosabih",
     },
     {
       id: 2,
       title: "Monday morning vibes",
-      imageUrl: "/placeholder.svg?height=300&width=300",
-      likes: 6900,
-      author: "@mondayhater",
+      imageUrl: "/sam.jpg",
+      likes: 900,
+      author: "@samuelsaulsbury",
     },
     {
       id: 3,
-      title: "POV: You're explaining memes to your parents",
-      imageUrl: "/placeholder.svg?height=300&width=300",
-      likes: 8100,
-      author: "@generationgap",
+      title: "Office days",
+      imageUrl: "/thanks.jpg",
+      likes: 1300,
+      author: "@eyerolldaily",
     },
   ]
 
@@ -81,7 +81,7 @@ export default function Home() {
       {/* Hero Section - Futuristic Chaos */}
       <section className="relative pt-20 pb-16 px-4 sm:px-6 lg:px-8 mx-auto overflow-hidden">
         {/* Pixelated background grid */}
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
           <div className="absolute inset-0">
             <div className="grid grid-cols-[repeat(auto-fill,minmax(8px,1fr))] grid-rows-[repeat(auto-fill,minmax(8px,1fr))] h-full w-full">
               {[...Array(400)].map((_, i) => (
@@ -102,10 +102,10 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Red glitch lines */}
-        <div className="absolute inset-0 z-0 overflow-hidden">
+        {/* <div className="absolute inset-0 z-0 overflow-hidden">
           {[...Array(10)].map((_, i) => (
             <motion.div
               key={i}
@@ -123,7 +123,7 @@ export default function Home() {
               }}
             />
           ))}
-        </div>
+        </div> */}
 
         <div className="relative z-10">
           <motion.div
@@ -137,7 +137,7 @@ export default function Home() {
                 className="relative"
               >
                 <div className="max-w-5xl right-0 left-0 mx-auto relative font-bold tracking-tighter mb-2 text-black">
-                  <h1 className="text-2xl md:text-5xl leading-snug">
+                  <h1 className="text-2xl md:text-5xl h-28 relative leading-relaxed">
                   <motion.span
                     className="glitch-text text-4xl md:text-5xl"
                     data-text="eyerolldaily"
@@ -536,27 +536,6 @@ export default function Home() {
           </motion.div>
         </motion.div>
       </section>
-
-      {/* Footer */}
-      {/* <footer className="py-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-gray-800">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <p className="text-black text-sm md:text-xl">© {new Date().getFullYear()} eyerolldaily. All rights reserved.</p>
-          </div>
-          <div className="flex space-x-6">
-            <Link href="#" className="text-black hover:text-white">
-              <span className="sr-only">Twitter</span>
-              <svg className="h-5 w-5 md:h-8 md:w-8" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
-              </svg>
-            </Link>
-            <Link href="#" className="text-black hover:text-white">
-              <span className="sr-only">Instagram</span>
-              <InstagramIcon className="text-black hover:text-white h-5 w-5 md:h-8 md:w-8"/>
-            </Link>
-          </div>
-        </div>
-      </footer> */}
     </main>
   )
 }

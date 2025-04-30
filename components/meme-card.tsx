@@ -36,7 +36,7 @@ export default function MemeCard({ meme }: MemeCardProps) {
     <Card className="overflow-hidden bg-black border border-white rounded-none transition-all duration-300">
       <CardContent className="p-0 relative">
         <div className="relative aspect-square">
-          <Image src={meme.imageUrl || "/placeholder.svg"} alt={meme.title} fill className="object-cover" />
+          <Image src={meme.imageUrl || "/placeholder.svg"} alt={meme.title} fill className="object-contain" />
         </div>
 
         <motion.div
