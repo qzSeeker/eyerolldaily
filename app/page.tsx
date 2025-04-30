@@ -137,7 +137,7 @@ export default function Home() {
                 className="relative"
               >
                 <div className="max-w-5xl right-0 left-0 mx-auto relative font-bold tracking-tighter mb-2 text-black">
-                  <h1 className="text-2xl md:text-5xl h-28 relative leading-relaxed">
+                  <h1 className="text-2xl md:text-5xl relative leading-relaxed">
                   <motion.span
                     className="glitch-text text-4xl md:text-5xl"
                     data-text="eyerolldaily"
