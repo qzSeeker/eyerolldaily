@@ -16,7 +16,7 @@ const MEMES = [
   {
     id: 1,
     title: "When the code finally works",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-1.jpg",
     likes: 4200,
     author: "@codingmemer",
     category: "tech",
@@ -26,7 +26,7 @@ const MEMES = [
   {
     id: 2,
     title: "Monday morning vibes",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-2.jpg",
     likes: 6900,
     author: "@mondayhater",
     category: "relatable",
@@ -36,7 +36,7 @@ const MEMES = [
   {
     id: 3,
     title: "POV: You're explaining memes to your parents",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-3.jpg",
     likes: 8100,
     author: "@generationgap",
     category: "relatable",
@@ -46,7 +46,7 @@ const MEMES = [
   {
     id: 4,
     title: "AI trying to understand human humor",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-4.jpg",
     likes: 3500,
     author: "@robotoverlord",
     category: "tech",
@@ -56,7 +56,7 @@ const MEMES = [
   {
     id: 5,
     title: "That one brain cell during an exam",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-5.jpg",
     likes: 9200,
     author: "@studentlife",
     category: "relatable",
@@ -66,7 +66,7 @@ const MEMES = [
   {
     id: 6,
     title: "Gaming at 3am be like",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-6.jpg",
     likes: 5600,
     author: "@gamermemes",
     category: "gaming",
@@ -76,7 +76,7 @@ const MEMES = [
   {
     id: 7,
     title: "When someone says they don't like memes",
-    imageUrl: "/placeholder.svg?height=400&width=400",
+    imageUrl: "/meme-7.jpg",
     likes: 7800,
     author: "@memedefender",
     category: "meta",

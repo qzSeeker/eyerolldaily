@@ -82,7 +82,7 @@ export default function Navbar() {
               onClick={toggleMenu} 
               className="text-black"
             >
-              <AlignLeft className="h-8 w-8" />
+              <AlignLeft className="h-7 w-7" />
             </button>
             
             {/* Center - logo */}
@@ -127,7 +127,7 @@ export default function Navbar() {
                   onClick={toggleMenu}
                   className="text-black"
                 >
-                  <X className="h-8 w-8" />
+                  <X className="h-7 w-7" />
                 </button>
               </div>
               
@@ -145,7 +145,7 @@ export default function Navbar() {
               </Link>
               
               <div className="pt-8">
-                <Button className="w-full bg-black hover:bg-gray-800 text-yellow-400 text-lg py-6">
+                <Button className="w-full rounded-none bg-black hover:bg-white hover:text-black transition-all text-yellow-400 text-lg py-6">
                   <User className="h-5 w-5 mr-2" />
                   Login
                 </Button>

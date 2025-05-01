@@ -392,11 +392,13 @@ export default function Home() {
 
           <div className="text-center my-12 md:my-20">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Link href="/memes">
               <Button
                 className="rounded-none text-xl bg-black md:text-3xl text-yellow-400 hover:bg-yellow-400 hover:text-white px-12 py-8"
               >
                 See More Memes →
               </Button>
+              </Link>
             </motion.div>
           </div>
         </motion.div>
@@ -477,7 +479,7 @@ export default function Home() {
           </motion.div>
 
           <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            {[...Array(8)].map((_, i) => (
+            {["meme-1.jpg", "meme-2.jpg", "meme-3.jpg", "meme-4.jpg", "meme-5.jpg", "meme-6.jpg",].map((meme, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -488,8 +490,8 @@ export default function Home() {
                 className="aspect-square relative overflow-hidden rounded-lg"
               >
                 <Image
-                  src={`/placeholder.svg?height=200&width=200&text=Insta${i + 1}`}
-                  alt={`Instagram post ${i + 1}`}
+                  src={`/${meme}`}
+                  alt={`Instagram post`}
                   fill
                   className="object-cover"
                 />
@@ -526,7 +528,7 @@ export default function Home() {
             Sign up now and get a free dose of serotonin with every scroll.
           </p>
 
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <motion.div whileHover={{ scale: .9 }} whileTap={{ scale: 0.9 }}>
             <button
               className="bg-yellow-400 flex items-center text-black font-bold text-xl px-5 py-4 shadow-xl"
             >
